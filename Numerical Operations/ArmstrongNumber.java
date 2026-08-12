@@ -25,5 +25,6 @@ public class ArmstrongNumber {
         System.out.println("Enter the number:");
         int n=sc.nextInt();
         obj.checkArm(n);
+        sc.close();
     }
 }
