@@ -10,7 +10,7 @@ class Imp {
         }
     }
 
-    public static void delete(int arr[], int del) {
+    public static void deleteVal(int arr[], int del) {
         int ind = 0;
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == del) {
