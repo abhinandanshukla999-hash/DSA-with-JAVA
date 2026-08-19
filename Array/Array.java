@@ -23,8 +23,8 @@ class Imp {
 
             }
         } else if (ind == arr.length - 1) {
-            for (int j = 0; j < arr.length - 1; j++) {
-                arr[j] = arr[j + 1];
+            for (int j = 0; j < arr.length - 2; j++) {
+                arr[j] = arr[j ];
 
             }
         } else if (ind > 0 && ind < arr.length - 1) {
@@ -77,10 +77,10 @@ public class Array {
         } else if (choice == 1) {
             System.out.println("Enter the element you want to delete:");
             int del = sc.nextInt();
-            Imp.delete(arr, del);
+            Imp.deleteVal(arr, del);
 
         } else {
-            System.out.println("Please enter a valid number between 0 & 1!");
+            System.out.println("Please enter a valid number among 0 & 1!");
         }
         
         sc.close();
