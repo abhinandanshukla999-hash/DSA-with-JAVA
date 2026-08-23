@@ -12,5 +12,6 @@ public class Pattern3{
             }
             System.out.print("\n");
         }
+        sc.close();
     }
 }

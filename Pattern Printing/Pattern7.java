@@ -35,5 +35,6 @@ public class Pattern7 {
 
 
         }
+        sc.close();
     }
 }

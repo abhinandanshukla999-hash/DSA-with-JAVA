@@ -10,6 +10,7 @@ public class Pattern9{
             }
             System.out.println();
         }
+        
     }
     
 }

@@ -18,5 +18,6 @@ public class Pattern4{
             }
             System.out.print("\n");
         }
+        sc.close();
     }
 }
