@@ -17,5 +17,7 @@ public class ArraylistCreation {
             System.out.print(data+" ");
 
         }
+        sc.close();
     }
+    
 }
