@@ -69,6 +69,9 @@ public class MatrixManipulation {
             }
 
         }
+        else if (choice==2) {
+            
+        }
 
         
     }
