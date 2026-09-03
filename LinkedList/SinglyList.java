@@ -69,6 +69,7 @@ class SinglyList {
         // Displaying the linked list
         System.out.println("\nSingly Linked List:");
         traverse();
+        sc.close();
     }
 }
 
