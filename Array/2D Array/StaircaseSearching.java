@@ -21,6 +21,7 @@ public class StaircaseSearching{
             {4,5,6},
             {7,8,9}
         };
+        
         searchkey(matrix, 7);
 
     }
