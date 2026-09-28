@@ -13,7 +13,7 @@ public class Permutations {
         // base case
 
         if (str.length() == 0) {
-            System.out.println(ans);
+            System.out.println("Ans is: "+ans);
             return;
         }
         // work flow
