@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class jattin {
+public class RemoveDuplicat {
      public static void main(String[] args) {
         int arr[] = { 1, 2, 1, 3, 4, 2, 4 };
         System.out.println("Elements are:");
