@@ -16,7 +16,7 @@ public class BinarySearch {
             else if (target > arr[mid])
                 first = mid + 1;
             else
-                System.out.println("Value is not present in the array!");
+                System.out.println("Value is not present in the array!"); 
         }
 
     }
