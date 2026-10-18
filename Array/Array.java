@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// Combination of insertion , traversal and deletion
 class Imp {
     public static void method(int arr[], int element) {
 
