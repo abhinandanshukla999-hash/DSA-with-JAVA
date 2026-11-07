@@ -1,27 +1,57 @@
 package JCF.List;
-
-import java.util.Set;
-import java.util.HashSet;
+import java.util.*;
 
 public class Hashset {
     public static void main(String[] args) {
-        Set<Integer> s = new HashSet<>();
 
-        // Add elements
-        s.add(10);
-        s.add(20);
-        s.add(30);
-        s.add(10); // Duplicates are not allowed
+        HashSet<Integer> set = new HashSet<>();
 
-        System.out.println("Set: " + s);//insertion order doesn't follows
+        set.add(10);
+        set.add(20);
+        set.add(30);
+        set.add(40);
+        set.add(20);
 
-        // Check whether an element exists
-        System.out.println("Contains 20: " + s.contains(20));
+        System.out.println("HashSet: " + set);
 
-        // Remove an element
-        s.remove(30);
+        System.out.println("Contains 20: " + set.contains(20));
 
-        System.out.println("Set after removal: " + s);
-        System.out.println("Size: " + s.size());
+        set.remove(30);
+
+        System.out.println("After removal: " + set);
+
+        System.out.println("Size: " + set.size());
+
+        System.out.println("Is Empty: " + set.isEmpty());
+
+        System.out.println("Iterating HashSet:");
+
+        for (int num : set) {
+            System.out.println(num);
+        }
+
+        System.out.println("Using Iterator:");
+
+        Iterator<Integer> itr = set.iterator();
+
+        while (itr.hasNext()) {
+            System.out.println(itr.next());
+        }
+
+        set.addAll(Arrays.asList(50, 60, 70));
+
+        System.out.println("After addAll: " + set);
+
+        set.removeAll(Arrays.asList(10, 20));
+
+        System.out.println("After removeAll: " + set);
+
+        set.retainAll(Arrays.asList(40, 50, 60));
+
+        System.out.println("After retainAll: " + set);
+
+        set.clear();
+
+        System.out.println("After clear: " + set);
     }
 }
