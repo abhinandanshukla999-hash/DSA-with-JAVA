@@ -19,7 +19,7 @@ public class Hashmap {
         }
 
         System.out.println(m.get(1));//returns the value of key 1
-        System.out.println(m.containsKey("Abhinandan"));//false
+        System.out.println(m.containsKey(11));//false
 
         System.out.println(m.isEmpty());//false
 
